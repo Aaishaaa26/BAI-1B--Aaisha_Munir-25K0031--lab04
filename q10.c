@@ -49,11 +49,8 @@ int main(){
 	if (scoops ==3 && coneType == 'w'){
 	total = total + 0.00;
 	}
-	else {
-
-	if (sprinkles =='Y'){
+	else if (sprinkles =='Y'){
 		total = total + 0.75;
-	}
 	}
 	
 	if (payment_method == 2){
@@ -107,4 +104,5 @@ int main(){
 	printf("Your Total is: $%.2f",total);
 	return 0;	
 }
+
 
