@@ -92,10 +92,8 @@ int main(){
     if (scoops ==3 && coneType == 'w'){
 	printf("You got free toppings\n");
 	}
-	else {
-    if (sprinkles =='Y'){
+	else if (sprinkles =='Y'){
     	printf("Toppings: $0.75\n");
-	}
 	}
 	if (age < 12){
 	printf("Age below 12: -$1.00\n");
@@ -109,3 +107,4 @@ int main(){
 	printf("Your Total is: $%.2f",total);
 	return 0;	
 }
+
